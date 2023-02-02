@@ -1,0 +1,102 @@
+.fronend-developer-section {
+  width: 100%;
+  height: 600px;
+  margin-top: 200px;
+}
+.fronend-developer-section .txt {
+  position: relative;
+  font-size: 120px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+}
+.fronend-developer-section .front-span-container {
+  display: block;
+  position: relative;
+  left: 325px;
+  overflow: hidden;
+  width: 700px;
+}
+.fronend-developer-section .front-span-container .front-span {
+  left: -310px;
+}
+.fronend-developer-section .front-span-container .front-anim {
+  animation: front-text-anim 1s 0.1s ease-out forwards;
+}
+@keyframes front-text-anim {
+  from {
+    left: -310px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.fronend-developer-section .end-span-container {
+  display: block;
+  position: relative;
+  left: 650px;
+  overflow: hidden;
+  width: 700px;
+}
+.fronend-developer-section .end-span-container .end-span {
+  left: -190px;
+}
+.fronend-developer-section .end-span-container .end-anim {
+  animation: end-text-anim 1s 0.1s ease-out forwards;
+}
+@keyframes end-text-anim {
+  from {
+    left: -190px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.fronend-developer-section .developer-span-container {
+  display: block;
+  position: relative;
+  left: 325px;
+  overflow: hidden;
+  width: 700px;
+}
+.fronend-developer-section .developer-span-container .developer-span {
+  color: rgb(11, 0, 36);
+  left: -565px;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+.fronend-developer-section .developer-span-container .developer-anim {
+  animation: developer-text-anim 1s 0.1s ease-out forwards;
+}
+@keyframes developer-text-anim {
+  from {
+    left: -565px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.fronend-developer-section .with-react-span-container {
+  display: block;
+  position: relative;
+  left: 650px;
+  overflow: hidden;
+  width: 700px;
+}
+.fronend-developer-section .with-react-span-container .with-react-span {
+  color: rgb(0, 224, 224);
+  font-size: 60px;
+  text-transform: none;
+  top: 80px;
+}
+.fronend-developer-section .with-react-span-container .with-react-anim {
+  animation: with-react-anim 0.7s 0.7s ease-out forwards;
+}
+@keyframes with-react-anim {
+  from {
+    top: 80px;
+  }
+  to {
+    top: 0px;
+  }
+}
