@@ -29,33 +29,33 @@ const Skills = () => {
 				</span>
 			</div>
 			<div className="technologies-container">
-				<span className="html-text skill">
+				<div className="html-text skill">
 					<img src={htmlImg} className="html-css-js-img" />
-				</span>
-				<span className="css-text skill">
+				</div>
+				<div className="css-text skill">
 					<img src={cssImg} className="html-css-js-img" />
-				</span>
-				<span className="js-text skill">
+				</div>
+				<div className="js-text skill">
 					<img src={jsImg} className="html-css-js-img" />
-				</span>
-				<span className="react-text skill">
+				</div>
+				<div className="react-text skill">
 					<img src={reactImg} className="react-img" />
-				</span>
-				<span className="node-text skill">
+				</div>
+				<div className="node-text skill">
 					<img src={nodeImg} className="node-express-mongo-img" />
-				</span>
-				<span className="express-text skill">
+				</div>
+				<div className="express-text skill">
 					<img src={expressImg} className="node-express-mongo-img" />
-				</span>
-				<span className="mongodb-text skill">
+				</div>
+				<div className="mongodb-text skill">
 					<img src={mongoImg} className="node-express-mongo-img" />
-				</span>
-				<span className="gimp-text skill">
+				</div>
+				<div className="gimp-text skill">
 					<img src={gimpImg} className="gimp-figma-img" />
-				</span>
-				<span className="figma-text skill">
+				</div>
+				<div className="figma-text skill">
 					<img src={figmaImg} className="gimp-figma-img" />
-				</span>
+				</div>
 			</div>
 		</div>
 	);
