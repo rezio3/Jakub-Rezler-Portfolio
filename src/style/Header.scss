@@ -15,7 +15,6 @@
 			top: 20px;
 			rotate: -30deg;
 			opacity: 0;
-			animation: sqrt1 1s ease-out forwards;
 		}
 
 		.sqrt2 {
@@ -27,6 +26,13 @@
 			top: 0px;
 			rotate: 35deg;
 			opacity: 0;
+		}
+
+		.sqrt1-anim {
+			animation: sqrt1 1s ease-out forwards;
+		}
+
+		.sqrt2-anim {
 			animation: sqrt2 0.8s 0.1s ease-out forwards;
 		}
 
@@ -91,7 +97,6 @@
 			left: -90px;
 			rotate: 35deg;
 			opacity: 0;
-			animation: sqrt3 0.8s 0.1s ease-out forwards;
 		}
 
 		.sqrt4 {
@@ -101,6 +106,13 @@
 			height: 290px;
 			left: -160px;
 			opacity: 0;
+		}
+
+		.sqrt3-anim {
+			animation: sqrt3 0.8s 0.1s ease-out forwards;
+		}
+
+		.sqrt4-anim {
 			animation: sqrt4 0.8s ease-out forwards;
 		}
 
