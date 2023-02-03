@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "../style/css/Header.css";
 const Header = () => {
+	const [anim, setAnim] = useState(false);
+	const myRef = useRef();
+	useEffect(() => {
+		const observer = new IntersectionObserver((entries) => {
+			const entry = entries[0];
+			setAnim(entry.isIntersecting);
+		});
+		observer.observe(myRef.current);
+	}, []);
 	return (
-		<div className="first-section">
+		<div ref={myRef} className="first-section">
 			<div className="upper-sqrt">
-				<div className="sqrt1" />
-				<div className="sqrt2" />
+				<div className={anim ? "sqrt1 sqrt1-anim" : "sqrt1"} />
+				<div className={anim ? "sqrt2 sqrt2-anim" : "sqrt2"} />
 			</div>
 			<h2 className="jakub-rezler-header">Jakub Rezler</h2>
 			<div className="lower-sqrt">
-				<div className="sqrt3" />
-				<div className="sqrt4" />
+				<div className={anim ? "sqrt3 sqrt3-anim" : "sqrt3"} />
+				<div className={anim ? "sqrt4 sqrt4-anim" : "sqrt4"} />
 			</div>
 			<div className="about-me-text-container">
 				<p className="about-me-text">
