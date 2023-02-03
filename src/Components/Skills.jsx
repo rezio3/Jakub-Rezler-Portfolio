@@ -10,6 +10,7 @@ import expressImg from "../img/express.png";
 import mongoImg from "../img/mongo.png";
 import gimpImg from "../img/gimp.png";
 import figmaImg from "../img/figma.png";
+import tsImg from "../img/ts.png";
 
 const Skills = () => {
 	const [anim, setAnim] = useState(false);
@@ -30,31 +31,88 @@ const Skills = () => {
 			</div>
 			<div className="technologies-container">
 				<div className="html-text skill">
-					<img src={htmlImg} className="html-css-js-img" />
+					<img
+						src={htmlImg}
+						className={
+							anim ? "html-css-js-img img html-img" : "html-css-js-img img"
+						}
+					/>
 				</div>
 				<div className="css-text skill">
-					<img src={cssImg} className="html-css-js-img" />
+					<img
+						src={cssImg}
+						className={
+							anim ? "html-css-js-img img css-img" : "html-css-js-img img"
+						}
+					/>
 				</div>
 				<div className="js-text skill">
-					<img src={jsImg} className="html-css-js-img" />
+					<img
+						src={jsImg}
+						className={
+							anim ? "html-css-js-img img js-img" : "html-css-js-img img"
+						}
+					/>
 				</div>
 				<div className="react-text skill">
-					<img src={reactImg} className="react-img" />
+					<img
+						src={reactImg}
+						className={anim ? "img react-img react-img-anim" : "img react-img"}
+					/>
 				</div>
 				<div className="node-text skill">
-					<img src={nodeImg} className="node-express-mongo-img" />
+					<img
+						src={nodeImg}
+						className={
+							anim
+								? "node-express-mongo-img img node-img"
+								: "node-express-mongo-img img"
+						}
+					/>
 				</div>
+			</div>
+			<div className="technologies-container">
 				<div className="express-text skill">
-					<img src={expressImg} className="node-express-mongo-img" />
+					<img
+						src={expressImg}
+						className={
+							anim
+								? "node-express-mongo-img img express-img"
+								: "node-express-mongo-img img"
+						}
+					/>
 				</div>
 				<div className="mongodb-text skill">
-					<img src={mongoImg} className="node-express-mongo-img" />
+					<img
+						src={mongoImg}
+						className={
+							anim
+								? "node-express-mongo-img img mongo-img"
+								: "node-express-mongo-img img"
+						}
+					/>
 				</div>
 				<div className="gimp-text skill">
-					<img src={gimpImg} className="gimp-figma-img" />
+					<img
+						src={gimpImg}
+						className={
+							anim ? "gimp-figma-img img gimp-img" : "gimp-figma-img img"
+						}
+					/>
 				</div>
 				<div className="figma-text skill">
-					<img src={figmaImg} className="gimp-figma-img" />
+					<img
+						src={figmaImg}
+						className={
+							anim ? "gimp-figma-img img figma-img" : "gimp-figma-img img"
+						}
+					/>
+				</div>
+				<div className="ts-text skill">
+					<img
+						src={tsImg}
+						className={anim ? "img ts-img ts-img-anim" : "img ts-img"}
+					/>
 				</div>
 			</div>
 		</div>
