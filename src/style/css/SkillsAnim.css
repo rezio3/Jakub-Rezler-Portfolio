@@ -1,0 +1,58 @@
+.js-img {
+  position: relative;
+  animation: images-anim 0.5s 0.3s ease-out forwards;
+}
+
+.css-img {
+  position: relative;
+  animation: images-anim 0.5s 0.4s ease-out forwards;
+}
+
+.html-img {
+  position: relative;
+  animation: images-anim 0.5s 0.4s ease-out forwards;
+}
+
+.ts-img-anim {
+  position: relative;
+  animation: images-anim 0.5s 0.5s ease-out forwards;
+}
+
+.react-img-anim {
+  position: relative;
+  animation: images-anim 0.5s 0.5s ease-out forwards;
+}
+
+.node-img {
+  position: relative;
+  animation: images-anim 0.5s 0.6s ease-out forwards;
+}
+
+.express-img {
+  position: relative;
+  animation: images-anim 0.5s 0.6s ease-out forwards;
+}
+
+.mongo-img {
+  position: relative;
+  animation: images-anim 0.5s 0.7s ease-out forwards;
+}
+
+.gimp-img {
+  position: relative;
+  animation: images-anim 0.5s 0.8s ease-out forwards;
+}
+
+.figma-img {
+  position: relative;
+  animation: images-anim 0.5s 0.7s ease-out forwards;
+}
+
+@keyframes images-anim {
+  from {
+    top: 160px;
+  }
+  to {
+    top: 0px;
+  }
+}
