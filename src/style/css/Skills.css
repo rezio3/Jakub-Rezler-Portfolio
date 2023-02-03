@@ -1,6 +1,6 @@
 .skills-container {
   width: 100%;
-  height: 500px;
+  height: 800px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .skills-container .skills-text-container {
@@ -29,15 +29,21 @@
 }
 .skills-container .technologies-container {
   width: 100%;
-  height: 700px;
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: start;
+  margin-top: 50px;
 }
 .skills-container .technologies-container .skill {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+}
+.skills-container .technologies-container .skill .img {
+  top: 160px;
 }
 .skills-container .technologies-container .html-css-js-img {
   margin-top: 20px;
@@ -52,4 +58,47 @@
 }
 .skills-container .technologies-container .gimp-figma-img {
   width: 190px;
+}
+.skills-container .technologies-container .ts-img {
+  width: 110px;
+}
+.skills-container .technologies-container .html-text {
+  top: 370px;
+  left: 40px;
+}
+.skills-container .technologies-container .css-text {
+  top: 240px;
+  left: 100px;
+}
+.skills-container .technologies-container .js-text {
+  top: 50px;
+  left: -350px;
+}
+.skills-container .technologies-container .react-text {
+  left: -240px;
+  top: 80px;
+}
+.skills-container .technologies-container .node-text {
+  top: 510px;
+  left: -480px;
+}
+.skills-container .technologies-container .express-text {
+  top: 20px;
+  left: 640px;
+}
+.skills-container .technologies-container .mongodb-text {
+  top: -190px;
+  left: 420px;
+}
+.skills-container .technologies-container .gimp-text {
+  top: 180px;
+  left: 420px;
+}
+.skills-container .technologies-container .figma-text {
+  left: 40px;
+  top: -50px;
+}
+.skills-container .technologies-container .ts-text {
+  left: -900px;
+  top: 260px;
 }

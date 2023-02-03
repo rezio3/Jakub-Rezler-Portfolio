@@ -1,6 +1,6 @@
 .skills-container {
 	width: 100%;
-	height: 500px;
+	height: 800px;
 
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	.skills-text-container {
@@ -32,15 +32,23 @@
 
 	.technologies-container {
 		width: 100%;
-		height: 700px;
+		height: 200px;
 		display: flex;
 		justify-content: space-between;
 		align-items: start;
+		margin-top: 50px;
 
 		.skill {
+			// min-width: 300px;
+			position: relative;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			overflow: hidden;
+
+			.img {
+				top: 160px;
+			}
 		}
 		.html-css-js-img {
 			margin-top: 20px;
@@ -57,6 +65,59 @@
 
 		.gimp-figma-img {
 			width: 190px;
+		}
+
+		.ts-img {
+			width: 110px;
+		}
+
+		.html-text {
+			top: 370px;
+			left: 40px;
+		}
+
+		.css-text {
+			top: 240px;
+			left: 100px;
+		}
+
+		.js-text {
+			top: 50px;
+			left: -350px;
+		}
+
+		.react-text {
+			left: -240px;
+			top: 80px;
+		}
+
+		.node-text {
+			top: 510px;
+			left: -480px;
+		}
+
+		.express-text {
+			top: 20px;
+			left: 640px;
+		}
+
+		.mongodb-text {
+			top: -190px;
+			left: 420px;
+		}
+
+		.gimp-text {
+			top: 180px;
+			left: 420px;
+		}
+		.figma-text {
+			left: 40px;
+			top: -50px;
+		}
+
+		.ts-text {
+			left: -900px;
+			top: 260px;
 		}
 	}
 }
