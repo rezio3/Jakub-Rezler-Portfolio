@@ -1,14 +1,29 @@
 import React from "react";
 import "../style/css/Lines.css";
+import Media from "react-media";
 
 const Lines = () => {
 	return (
 		<div className="lines">
-			<div className="vertical-line"></div>
-			<div className="vertical-line"></div>
-			<div className="vertical-line"></div>
-			<div className="vertical-line"></div>
-			<div className="vertical-line"></div>
+			<Media query="(min-width: 992px)">
+				{(matches) => {
+					return matches ? (
+						<>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+						</>
+					) : (
+						<>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+							<div className="vertical-line"></div>
+						</>
+					);
+				}}
+			</Media>
 		</div>
 	);
 };
