@@ -1,4 +1,10 @@
-.projects-header {
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projects-container .projects-header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 170px;
   color: white;
@@ -8,4 +14,26 @@
   background-attachment: fixed;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 400px;
+}
+.projects-container .stay-alive-project-container {
+  background-image: url(../../img//stay-alive-img.jpg);
+  width: 800px;
+  height: 550px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.projects-container .stay-alive-project-container .stay-alive-text {
+  position: relative;
+  top: 400px;
+  left: -150px;
+  color: white;
+}
+.projects-container .stay-alive-project-container .stay-alive-upper-text {
+  font-size: 38px;
+}
+.projects-container .stay-alive-project-container .stay-alive-lower-text {
+  font-size: 28px;
 }
