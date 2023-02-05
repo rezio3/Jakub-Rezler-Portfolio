@@ -95,13 +95,13 @@
   }
   .projects-container .single-project-container .text {
     top: 350px;
-    left: 0px;
+    left: 5px;
     color: white;
     font-weight: bold;
     font-family: "Saira", sans-serif;
   }
   .projects-container .single-project-container .stay-alive-text {
-    left: 0px;
+    left: 5px;
   }
   .projects-container .single-project-container .upper-text {
     font-size: 32px;
@@ -131,9 +131,9 @@
   }
   .projects-container .dagmar-project-container .dagmar-text {
     top: 250px;
-    left: 0px;
+    left: 5px;
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: "Saira", sans-serif;
   }
 }
