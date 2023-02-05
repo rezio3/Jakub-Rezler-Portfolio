@@ -31,6 +31,11 @@
 			top: 400px;
 			left: -150px;
 			color: white;
+			font-family: "Saira", sans-serif;
+		}
+
+		.stay-alive-text {
+			left: -280px;
 		}
 
 		.upper-text {
@@ -76,11 +81,13 @@
 		height: 480px;
 		.dagmar-text {
 			position: relative;
-			top: 370px;
-			left: -150px;
+			top: 250px;
+			left: -200px;
 			color: black;
+			font-family: "Saira", sans-serif;
 		}
 	}
+
 	.dagmar-project-container:hover {
 		background-size: 105%;
 		background-position-x: -25px;

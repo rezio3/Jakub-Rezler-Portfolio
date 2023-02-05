@@ -30,6 +30,10 @@
   top: 400px;
   left: -150px;
   color: white;
+  font-family: "Saira", sans-serif;
+}
+.projects-container .single-project-container .stay-alive-text {
+  left: -280px;
 }
 .projects-container .single-project-container .upper-text {
   font-size: 38px;
@@ -69,9 +73,10 @@
 }
 .projects-container .dagmar-project-container .dagmar-text {
   position: relative;
-  top: 370px;
-  left: -150px;
+  top: 250px;
+  left: -200px;
   color: black;
+  font-family: "Saira", sans-serif;
 }
 .projects-container .dagmar-project-container:hover {
   background-size: 105%;
