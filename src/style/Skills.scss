@@ -1,3 +1,5 @@
+@import "./colors";
+
 .skills-container {
 	width: 100%;
 	height: 800px;
@@ -10,7 +12,7 @@
 			position: relative;
 			left: -600px;
 			font-size: 40px;
-			color: rgb(0, 224, 224);
+			color: $cyan;
 			opacity: 0;
 		}
 		.skills-text-anim {
@@ -131,6 +133,6 @@
 		width: 500px;
 		font-size: 28px;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		color: rgb(0, 224, 224);
+		color: $cyan;
 	}
 }

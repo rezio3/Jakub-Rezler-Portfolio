@@ -1,3 +1,4 @@
+@import "./colors";
 .lines {
 	width: 1300px;
 	height: 100%;
@@ -12,7 +13,7 @@
 		display: inline-block;
 		height: 18200px;
 		max-width: 1px;
-		border-left: 1px solid rgb(55, 184, 166);
+		border-left: 1px solid $linesColor;
 		white-space: nowrap;
 	}
 }
@@ -32,7 +33,7 @@
 			display: inline-block;
 			height: 15000px;
 			max-width: 1px;
-			border-left: 1px solid rgb(55, 184, 166);
+			border-left: 1px solid $linesColor;
 			white-space: nowrap;
 		}
 	}

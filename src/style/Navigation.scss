@@ -1,3 +1,4 @@
+@import "./colors";
 .navbar {
 	position: fixed;
 	top: 0;
@@ -31,7 +32,7 @@
 		}
 
 		.nav-button:hover {
-			color: rgb(0, 224, 224);
+			color: $cyan;
 		}
 	}
 }

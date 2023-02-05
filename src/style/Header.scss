@@ -1,3 +1,4 @@
+@import "./colors";
 .first-section {
 	margin-top: 60px;
 	width: 100%;
@@ -156,7 +157,7 @@
 		.about-me-text {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-size: 26px;
-			color: rgb(0, 224, 224);
+			color: $cyan;
 			margin-right: 50px;
 			width: 40%;
 

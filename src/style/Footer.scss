@@ -1,3 +1,4 @@
+@import "./colors";
 .footer-container {
 	display: flex;
 	justify-content: space-between;
@@ -19,6 +20,6 @@
 	}
 
 	.fa-brands:hover {
-		color: rgb(0, 224, 224);
+		color: $cyan;
 	}
 }
