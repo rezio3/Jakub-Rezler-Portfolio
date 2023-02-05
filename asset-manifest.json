@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jakub-Rezler-Portfolio/static/css/main.e433ae0b.css",
-    "main.js": "/Jakub-Rezler-Portfolio/static/js/main.1b49a90d.js",
+    "main.css": "/Jakub-Rezler-Portfolio/static/css/main.918d10b2.css",
+    "main.js": "/Jakub-Rezler-Portfolio/static/js/main.c9d3b3f8.js",
     "static/media/crypto.jpg": "/Jakub-Rezler-Portfolio/static/media/crypto.098fabe2489852cae510.jpg",
     "static/media/stay-alive-img.jpg": "/Jakub-Rezler-Portfolio/static/media/stay-alive-img.47bf9b1b9278a4b99c48.jpg",
     "static/media/pattern.jpg": "/Jakub-Rezler-Portfolio/static/media/pattern.197b015e2fe27a4aa513.jpg",
@@ -17,11 +17,11 @@
     "static/media/figma.png": "/Jakub-Rezler-Portfolio/static/media/figma.75a1fefc9cfee7c8abae.png",
     "static/media/express.png": "/Jakub-Rezler-Portfolio/static/media/express.30c60ea01b673cf6a434.png",
     "index.html": "/Jakub-Rezler-Portfolio/index.html",
-    "main.e433ae0b.css.map": "/Jakub-Rezler-Portfolio/static/css/main.e433ae0b.css.map",
-    "main.1b49a90d.js.map": "/Jakub-Rezler-Portfolio/static/js/main.1b49a90d.js.map"
+    "main.918d10b2.css.map": "/Jakub-Rezler-Portfolio/static/css/main.918d10b2.css.map",
+    "main.c9d3b3f8.js.map": "/Jakub-Rezler-Portfolio/static/js/main.c9d3b3f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e433ae0b.css",
-    "static/js/main.1b49a90d.js"
+    "static/css/main.918d10b2.css",
+    "static/js/main.c9d3b3f8.js"
   ]
 }
