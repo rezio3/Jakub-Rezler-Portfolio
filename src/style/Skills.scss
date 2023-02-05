@@ -136,3 +136,113 @@
 		color: $cyan;
 	}
 }
+
+@media (max-width: 992px) {
+	.skills-container {
+		.skills-text-container {
+			width: 300px;
+
+			.skills-text {
+				position: relative;
+				left: -300px;
+				font-size: 30px;
+			}
+		}
+		.icons-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.technologies-container {
+				flex-direction: column;
+				height: 700px;
+				width: 47%;
+				margin-top: 50px;
+
+				.skill {
+					.img {
+						top: 160px;
+					}
+				}
+				.html-css-js-img {
+					margin-top: 20px;
+					width: 70px;
+				}
+				.react-img {
+					margin-top: 20px;
+					width: 110px;
+				}
+
+				.node-express-mongo-img {
+					width: 190px;
+				}
+
+				.gimp-figma-img {
+					width: 140px;
+				}
+
+				.ts-img {
+					width: 80px;
+				}
+
+				.html-text {
+					top: 0;
+					left: 100px;
+				}
+
+				.css-text {
+					top: -60px;
+					left: 0;
+				}
+
+				.js-text {
+					top: -150px;
+					left: 140px;
+				}
+
+				.react-text {
+					left: 40px;
+					top: -40px;
+				}
+
+				.node-text {
+					top: -200px;
+					left: 30px;
+				}
+
+				.express-text {
+					top: -180px;
+					left: -10px;
+				}
+
+				.mongodb-text {
+					top: -50px;
+					left: 20px;
+				}
+
+				.gimp-text {
+					top: -50px;
+					left: -10px;
+				}
+				.figma-text {
+					left: 50px;
+					top: -80px;
+				}
+
+				.ts-text {
+					left: 20px;
+					top: -100px;
+				}
+			}
+		}
+	}
+	.skills-lower-text-container {
+		.about-me-skills-text {
+			left: 0px;
+			width: 400px;
+			margin: 20px 20px;
+			font-size: 28px;
+			font-family: "Poppins", sans-serif;
+			color: $cyan;
+		}
+	}
+}

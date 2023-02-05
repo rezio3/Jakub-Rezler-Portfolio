@@ -114,3 +114,93 @@
   font-family: "Poppins", sans-serif;
   color: rgb(0, 224, 224);
 }
+
+@media (max-width: 992px) {
+  .skills-container .skills-text-container {
+    width: 300px;
+  }
+  .skills-container .skills-text-container .skills-text {
+    position: relative;
+    left: -300px;
+    font-size: 30px;
+  }
+  .skills-container .icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-container .icons-container .technologies-container {
+    flex-direction: column;
+    height: 700px;
+    width: 47%;
+    margin-top: 50px;
+  }
+  .skills-container .icons-container .technologies-container .skill .img {
+    top: 160px;
+  }
+  .skills-container .icons-container .technologies-container .html-css-js-img {
+    margin-top: 20px;
+    width: 70px;
+  }
+  .skills-container .icons-container .technologies-container .react-img {
+    margin-top: 20px;
+    width: 110px;
+  }
+  .skills-container .icons-container .technologies-container .node-express-mongo-img {
+    width: 190px;
+  }
+  .skills-container .icons-container .technologies-container .gimp-figma-img {
+    width: 140px;
+  }
+  .skills-container .icons-container .technologies-container .ts-img {
+    width: 80px;
+  }
+  .skills-container .icons-container .technologies-container .html-text {
+    top: 0;
+    left: 100px;
+  }
+  .skills-container .icons-container .technologies-container .css-text {
+    top: -60px;
+    left: 0;
+  }
+  .skills-container .icons-container .technologies-container .js-text {
+    top: -150px;
+    left: 140px;
+  }
+  .skills-container .icons-container .technologies-container .react-text {
+    left: 40px;
+    top: -40px;
+  }
+  .skills-container .icons-container .technologies-container .node-text {
+    top: -200px;
+    left: 30px;
+  }
+  .skills-container .icons-container .technologies-container .express-text {
+    top: -180px;
+    left: -10px;
+  }
+  .skills-container .icons-container .technologies-container .mongodb-text {
+    top: -50px;
+    left: 20px;
+  }
+  .skills-container .icons-container .technologies-container .gimp-text {
+    top: -50px;
+    left: -10px;
+  }
+  .skills-container .icons-container .technologies-container .figma-text {
+    left: 50px;
+    top: -80px;
+  }
+  .skills-container .icons-container .technologies-container .ts-text {
+    left: 20px;
+    top: -100px;
+  }
+  .skills-lower-text-container .about-me-skills-text {
+    left: 0px;
+    width: 400px;
+    margin: 20px 20px;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 224, 224);
+  }
+}
