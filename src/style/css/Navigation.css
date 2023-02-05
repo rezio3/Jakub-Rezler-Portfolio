@@ -24,6 +24,11 @@
   background: none;
   color: white;
   border: none;
-  padding: 1;
+  padding: 5;
   margin-left: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar .nav-links .nav-button:hover {
+  color: rgb(0, 224, 224);
 }
