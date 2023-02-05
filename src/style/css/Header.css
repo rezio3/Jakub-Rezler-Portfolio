@@ -28,10 +28,10 @@
   opacity: 0;
 }
 .first-section .upper-sqrt .sqrt1-anim {
-  animation: sqrt1 1s ease-out forwards;
+  animation: sqrt1 1s 0.5s ease-out forwards;
 }
 .first-section .upper-sqrt .sqrt2-anim {
-  animation: sqrt2 0.8s 0.1s ease-out forwards;
+  animation: sqrt2 0.8s 0.6s ease-out forwards;
 }
 @keyframes sqrt1 {
   from {
@@ -99,10 +99,10 @@
   opacity: 0;
 }
 .first-section .lower-sqrt .sqrt3-anim {
-  animation: sqrt3 0.8s 0.1s ease-out forwards;
+  animation: sqrt3 0.8s 0.6s ease-out forwards;
 }
 .first-section .lower-sqrt .sqrt4-anim {
-  animation: sqrt4 0.8s ease-out forwards;
+  animation: sqrt4 0.8s 0.5s ease-out forwards;
 }
 @keyframes sqrt3 {
   from {
