@@ -167,3 +167,53 @@
 		}
 	}
 }
+
+@media (max-width: 992px) {
+	.first-section {
+		.jakub-rezler-header {
+			width: 100%;
+			margin-top: 25px;
+			font-size: 110px;
+			transform: translateX(0);
+			left: 0;
+		}
+		.upper-sqrt {
+			.sqrt1 {
+				width: 240px;
+				height: 130px;
+				left: 40px;
+			}
+			.sqrt2 {
+				left: -40px;
+				width: 210px;
+				height: 160px;
+			}
+		}
+
+		.lower-sqrt {
+			top: 210px;
+			left: -130px;
+			.sqrt3 {
+				width: 280px;
+				height: 180px;
+				left: 100px;
+			}
+			.sqrt4 {
+				width: 240px;
+				height: 180px;
+				left: 60px;
+			}
+		}
+		.about-me-text-container {
+			width: 90%;
+			display: block;
+			margin: 350px 20px 0;
+
+			.about-me-text {
+				font-size: 24px;
+				margin-right: 0;
+				width: 90%;
+			}
+		}
+	}
+}

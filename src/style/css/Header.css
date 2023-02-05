@@ -143,3 +143,47 @@
 .first-section .about-me-text-container .about-me-text .white-text {
   color: white;
 }
+
+@media (max-width: 992px) {
+  .first-section .jakub-rezler-header {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 110px;
+    transform: translateX(0);
+    left: 0;
+  }
+  .first-section .upper-sqrt .sqrt1 {
+    width: 240px;
+    height: 130px;
+    left: 40px;
+  }
+  .first-section .upper-sqrt .sqrt2 {
+    left: -40px;
+    width: 210px;
+    height: 160px;
+  }
+  .first-section .lower-sqrt {
+    top: 210px;
+    left: -130px;
+  }
+  .first-section .lower-sqrt .sqrt3 {
+    width: 280px;
+    height: 180px;
+    left: 100px;
+  }
+  .first-section .lower-sqrt .sqrt4 {
+    width: 240px;
+    height: 180px;
+    left: 60px;
+  }
+  .first-section .about-me-text-container {
+    width: 90%;
+    display: block;
+    margin: 350px 20px 0;
+  }
+  .first-section .about-me-text-container .about-me-text {
+    font-size: 24px;
+    margin-right: 0;
+    width: 90%;
+  }
+}
