@@ -6,9 +6,12 @@ const Navigation = () => {
 		<div className="navbar">
 			<h1 className="portfolio-header-text">Portfolio</h1>
 			<div className="nav-links">
-				<button className="nav-button">O mnie</button>
-				<button className="nav-button">Projekty</button>
-				<button className="nav-button">Kontakt</button>
+				<a href="https://github.com/rezio3" target="_blank">
+					<button className="nav-button">Github</button>
+				</a>
+				<a href="mailto:jakub.rezler96@gmail.com">
+					<button className="nav-button">Kontakt</button>
+				</a>
 			</div>
 		</div>
 	);
