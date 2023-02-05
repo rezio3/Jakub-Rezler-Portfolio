@@ -78,6 +78,7 @@ const Projects = () => {
 						Stay Alive Boardgame
 					</span>
 					<span className="lower-text text stay-alive-text">
+						Desktop version <br />
 						Pure JS/React version in progress...
 					</span>
 				</div>
@@ -106,17 +107,19 @@ const Projects = () => {
 				</div>
 			</a>
 			<div className="project-divider" />
-			<div
-				ref={dagmarRef}
-				className="dagmar-project-container single-project-container"
-				id="dagmar"
-			>
-				<span className="upper-text dagmar-text">
-					Biuro Tłumaczeń <br />
-					DAG-MAR
-				</span>
-				<span className="lower-text dagmar-text">React</span>
-			</div>
+			<a href="https://rezio3.github.io/dag-mar-website/" target="_blank">
+				<div
+					ref={dagmarRef}
+					className="dagmar-project-container single-project-container"
+					id="dagmar"
+				>
+					<span className="upper-text dagmar-text">
+						Biuro Tłumaczeń <br />
+						DAG-MAR
+					</span>
+					<span className="lower-text dagmar-text">React</span>
+				</div>
+			</a>
 			<div className="project-divider2" />
 			<div ref={mainColorlRef} id="mainColor" />
 		</div>

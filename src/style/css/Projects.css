@@ -4,6 +4,9 @@
   align-items: center;
   flex-direction: column;
 }
+.projects-container a {
+  text-decoration: none;
+}
 .projects-container .projects-header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 170px;
@@ -96,12 +99,14 @@
   .projects-container .single-project-container .text {
     top: 350px;
     left: 0px;
+    margin-left: 8px;
     color: white;
     font-weight: bold;
     font-family: "Saira", sans-serif;
   }
   .projects-container .single-project-container .stay-alive-text {
     left: 0px;
+    margin-left: 8px;
   }
   .projects-container .single-project-container .upper-text {
     font-size: 31px;
@@ -109,31 +114,39 @@
   .projects-container .single-project-container .lower-text {
     font-size: 21px;
   }
-  .projects-container .stay-alive-project-container {
+  .projects-container a {
     width: 99%;
+  }
+  .projects-container .stay-alive-project-container {
+    width: 100%;
     height: 350px;
     background-repeat: no-repeat;
   }
   .projects-container .crypto-project-container {
-    width: 99%;
+    width: 100%;
     height: 300px;
     background-repeat: no-repeat;
   }
   .projects-container .jrCompose-project-container {
-    width: 99%;
+    width: 100%;
     height: 350px;
     background-repeat: no-repeat;
   }
   .projects-container .dagmar-project-container {
-    width: 99%;
+    width: 100%;
     height: 240px;
     background-repeat: no-repeat;
   }
   .projects-container .dagmar-project-container .dagmar-text {
     top: 250px;
     left: 0px;
+    margin-left: 8px;
     font-weight: bold;
     color: white;
     font-family: "Saira", sans-serif;
+  }
+  .projects-container .single-project-container:hover {
+    background-size: 110%;
+    background-position-x: -30px;
   }
 }
