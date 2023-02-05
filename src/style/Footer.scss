@@ -23,3 +23,13 @@
 		color: $cyan;
 	}
 }
+
+@media (max-width: 992px) {
+	.footer-container {
+		width: 100%;
+
+		.copyright {
+			margin-left: 10px;
+		}
+	}
+}

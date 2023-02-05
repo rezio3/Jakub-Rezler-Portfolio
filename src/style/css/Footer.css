@@ -19,3 +19,12 @@
 .footer-container .fa-brands:hover {
   color: rgb(0, 224, 224);
 }
+
+@media (max-width: 992px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-container .copyright {
+    margin-left: 10px;
+  }
+}
