@@ -26,3 +26,19 @@
 		box-shadow: 0px 0px 30px 10px;
 	}
 }
+
+@media (max-width: 992px) {
+	.contact-container {
+		margin-left: 10px;
+		width: 90%;
+		height: auto;
+
+		.contact-span {
+			font-size: 31px;
+		}
+		.text-me-button {
+			margin-top: 50px;
+			margin-left: 30px;
+		}
+	}
+}
