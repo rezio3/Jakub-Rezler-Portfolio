@@ -1,0 +1,21 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+  width: 1300px;
+}
+.footer-container .copyright {
+  margin-left: 3px;
+  font-size: 20px;
+  color: white;
+}
+.footer-container .fa-brands {
+  margin: 0 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.footer-container .fa-brands:hover {
+  color: rgb(0, 224, 224);
+}
