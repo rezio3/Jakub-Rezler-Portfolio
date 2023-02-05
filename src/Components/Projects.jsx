@@ -68,37 +68,43 @@ const Projects = () => {
 			<h2 ref={projectsRef} className="projects-header" id="projects">
 				Projekty
 			</h2>
-			<div
-				ref={stayAliveRef}
-				className="stay-alive-project-container single-project-container"
-				id="stayAlive"
-			>
-				<span className="upper-text text stay-alive-text">
-					Stay Alive Boardgame
-				</span>
-				<span className="lower-text text stay-alive-text">
-					Pure JS/React version in progress...
-				</span>
-			</div>
+			<a href="https://stayaliveboardgame.prv.pl/" target="_blank">
+				<div
+					ref={stayAliveRef}
+					className="stay-alive-project-container single-project-container"
+					id="stayAlive"
+				>
+					<span className="upper-text text stay-alive-text">
+						Stay Alive Boardgame
+					</span>
+					<span className="lower-text text stay-alive-text">
+						Pure JS/React version in progress...
+					</span>
+				</div>
+			</a>
 			<div className="project-divider" />
-			<div
-				ref={cryptoRef}
-				className="crypto-project-container single-project-container"
-				id="cryptoCalculator"
-			>
-				<span className="upper-text text">Crypto Calculator</span>
-				<span className="lower-text text">React</span>
-			</div>
+			<a href="https://crypto-calculator.prv.pl/" target="_blank">
+				<div
+					ref={cryptoRef}
+					className="crypto-project-container single-project-container"
+					id="cryptoCalculator"
+				>
+					<span className="upper-text text">Crypto Calculator</span>
+					<span className="lower-text text">React</span>
+				</div>
+			</a>
 			<div className="project-divider" />
-			<div
-				ref={jrComposeRef}
-				className="jrCompose-project-container single-project-container"
-				id="jrCompose"
-			>
-				<span className="upper-text text">JRCompose</span>
-				<span className="upper-text text">Strona kompozytorska</span>
-				<span className="lower-text text">React</span>
-			</div>
+			<a href="http://jrcompose.prv.pl/" target="_blank">
+				<div
+					ref={jrComposeRef}
+					className="jrCompose-project-container single-project-container"
+					id="jrCompose"
+				>
+					<span className="upper-text text">JRCompose</span>
+					<span className="upper-text text">Strona kompozytorska</span>
+					<span className="lower-text text">React</span>
+				</div>
+			</a>
 			<div className="project-divider" />
 			<div
 				ref={dagmarRef}
