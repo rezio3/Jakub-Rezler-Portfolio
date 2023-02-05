@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-jakub-rezler/static/css/main.7818c2bb.css",
+    "main.js": "/portfolio-jakub-rezler/static/js/main.861576ba.js",
+    "static/media/crypto.jpg": "/portfolio-jakub-rezler/static/media/crypto.098fabe2489852cae510.jpg",
+    "static/media/stay-alive-img.jpg": "/portfolio-jakub-rezler/static/media/stay-alive-img.47bf9b1b9278a4b99c48.jpg",
+    "static/media/pattern.jpg": "/portfolio-jakub-rezler/static/media/pattern.197b015e2fe27a4aa513.jpg",
+    "static/media/dagmar.jpg": "/portfolio-jakub-rezler/static/media/dagmar.91ba76ced5a06c523455.jpg",
+    "static/media/jrcompose.jpg": "/portfolio-jakub-rezler/static/media/jrcompose.e2d2055d1af8a85ff153.jpg",
+    "static/media/gimp.png": "/portfolio-jakub-rezler/static/media/gimp.4fcc5788e892e3de6126.png",
+    "static/media/css.png": "/portfolio-jakub-rezler/static/media/css.7cccaa25e660683adf3f.png",
+    "static/media/html.png": "/portfolio-jakub-rezler/static/media/html.d74cf3510743f807e0b8.png",
+    "static/media/js.png": "/portfolio-jakub-rezler/static/media/js.8dbd0933b528b9bd72d7.png",
+    "static/media/node.png": "/portfolio-jakub-rezler/static/media/node.2143c3ff16aa2c3c5fdc.png",
+    "static/media/react.png": "/portfolio-jakub-rezler/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/mongo.png": "/portfolio-jakub-rezler/static/media/mongo.0cd89544e41a7f813d01.png",
+    "static/media/figma.png": "/portfolio-jakub-rezler/static/media/figma.75a1fefc9cfee7c8abae.png",
+    "static/media/express.png": "/portfolio-jakub-rezler/static/media/express.30c60ea01b673cf6a434.png",
+    "index.html": "/portfolio-jakub-rezler/index.html",
+    "main.7818c2bb.css.map": "/portfolio-jakub-rezler/static/css/main.7818c2bb.css.map",
+    "main.861576ba.js.map": "/portfolio-jakub-rezler/static/js/main.861576ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7818c2bb.css",
+    "static/js/main.861576ba.js"
+  ]
+}
