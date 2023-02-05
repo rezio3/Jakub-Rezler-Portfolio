@@ -100,3 +100,40 @@
     top: 0px;
   }
 }
+
+@media (max-width: 992px) {
+  .fronend-developer-section .txt {
+    font-size: 90px;
+  }
+  .fronend-developer-section .front-span-container {
+    left: 0px;
+    width: 330px;
+  }
+  .fronend-developer-section .end-span-container {
+    left: 50%;
+    width: 200px;
+  }
+  .fronend-developer-section .developer-span-container {
+    left: 0;
+    width: 410px;
+  }
+  .fronend-developer-section .developer-span-container .developer-span {
+    font-size: 80px;
+  }
+  .fronend-developer-section .with-react-span-container {
+    left: 50%;
+    width: 200px;
+  }
+  .fronend-developer-section .with-react-span-container .with-react-span {
+    font-size: 50px;
+    top: 140px;
+  }
+  @keyframes with-react-anim {
+    from {
+      top: 140px;
+    }
+    to {
+      top: 0px;
+    }
+  }
+}
