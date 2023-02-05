@@ -32,3 +32,9 @@
 .navbar .nav-links .nav-button:hover {
   color: rgb(0, 224, 224);
 }
+
+@media (max-width: 992px) {
+  .navbar {
+    width: 100%;
+  }
+}
