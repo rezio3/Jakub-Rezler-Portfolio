@@ -1,0 +1,24 @@
+.contact-container {
+  width: 700px;
+  height: 540px;
+}
+.contact-container .contact-span {
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.contact-container .text-me-button {
+  margin-top: 50px;
+  margin-left: 155px;
+  background: white;
+  color: rgb(0, 116, 194);
+  font-size: 25px;
+  padding: 20px;
+  border: none;
+  border-radius: 40px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.contact-container .text-me-button:hover {
+  box-shadow: 0px 0px 10px 10px;
+}
