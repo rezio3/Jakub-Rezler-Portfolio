@@ -38,6 +38,7 @@
   left: 650px;
   overflow: hidden;
   width: 700px;
+  margin-right: 0;
 }
 .fronend-developer-section .end-span-container .end-span {
   left: -190px;
@@ -59,6 +60,7 @@
   left: 325px;
   overflow: hidden;
   width: 700px;
+  margin-right: 0;
 }
 .fronend-developer-section .developer-span-container .developer-span {
   color: rgb(11, 0, 36);
@@ -82,6 +84,7 @@
   left: 650px;
   overflow: hidden;
   width: 700px;
+  margin-right: 1px;
 }
 .fronend-developer-section .with-react-span-container .with-react-span {
   color: rgb(0, 224, 224);
@@ -103,7 +106,7 @@
 
 @media (max-width: 992px) {
   .fronend-developer-section .txt {
-    font-size: 90px;
+    font-size: 85px;
   }
   .fronend-developer-section .front-span-container {
     left: 0px;
@@ -111,21 +114,25 @@
   }
   .fronend-developer-section .end-span-container {
     left: 50%;
-    width: 200px;
+    width: 145px;
+    margin-right: 0;
   }
   .fronend-developer-section .developer-span-container {
     left: 0;
-    width: 410px;
+    width: 330px;
+    margin-right: 0;
   }
   .fronend-developer-section .developer-span-container .developer-span {
-    font-size: 80px;
+    font-size: 60px;
   }
   .fronend-developer-section .with-react-span-container {
     left: 50%;
-    width: 200px;
+    width: 145px;
+    margin-right: 0;
   }
   .fronend-developer-section .with-react-span-container .with-react-span {
-    font-size: 50px;
+    font-size: 45px;
+    margin-right: 0;
     top: 140px;
   }
   @keyframes with-react-anim {

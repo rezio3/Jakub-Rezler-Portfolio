@@ -35,6 +35,9 @@
 
 @media (max-width: 992px) {
   .navbar {
-    width: 100%;
+    width: 100vw;
+  }
+  .navbar .nav-links {
+    width: 10px;
   }
 }

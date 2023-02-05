@@ -143,9 +143,7 @@
 			width: 300px;
 
 			.skills-text {
-				position: relative;
-				left: -300px;
-				font-size: 30px;
+				font-size: 32px;
 			}
 		}
 		.icons-container {
@@ -165,23 +163,23 @@
 				}
 				.html-css-js-img {
 					margin-top: 20px;
-					width: 70px;
+					width: 60px;
 				}
 				.react-img {
 					margin-top: 20px;
-					width: 110px;
+					width: 90px;
 				}
 
 				.node-express-mongo-img {
-					width: 190px;
+					width: 150px;
 				}
 
 				.gimp-figma-img {
-					width: 140px;
+					width: 130px;
 				}
 
 				.ts-img {
-					width: 80px;
+					width: 60px;
 				}
 
 				.html-text {
@@ -190,13 +188,13 @@
 				}
 
 				.css-text {
-					top: -60px;
+					top: -70px;
 					left: 0;
 				}
 
 				.js-text {
 					top: -150px;
-					left: 140px;
+					left: 85px;
 				}
 
 				.react-text {
@@ -205,41 +203,41 @@
 				}
 
 				.node-text {
-					top: -200px;
-					left: 30px;
+					top: -240px;
+					left: 10px;
 				}
 
 				.express-text {
-					top: -180px;
+					top: -200px;
 					left: -10px;
 				}
 
 				.mongodb-text {
-					top: -50px;
-					left: 20px;
+					top: -80px;
+					left: 10px;
 				}
 
 				.gimp-text {
-					top: -50px;
+					top: -120px;
 					left: -10px;
 				}
 				.figma-text {
-					left: 50px;
-					top: -80px;
+					left: 20px;
+					top: -170px;
 				}
 
 				.ts-text {
-					left: 20px;
-					top: -100px;
+					left: 90px;
+					top: -230px;
 				}
 			}
 		}
 	}
 	.skills-lower-text-container {
 		.about-me-skills-text {
-			left: 50px;
-			width: 400px;
-			margin: 20px 20px;
+			left: 10px;
+			width: 300px;
+			margin: 0px 20px;
 			font-size: 28px;
 			font-family: "Poppins", sans-serif;
 			color: $cyan;

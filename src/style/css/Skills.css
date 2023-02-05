@@ -120,9 +120,7 @@
     width: 300px;
   }
   .skills-container .skills-text-container .skills-text {
-    position: relative;
-    left: -300px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .skills-container .icons-container {
     display: flex;
@@ -140,65 +138,65 @@
   }
   .skills-container .icons-container .technologies-container .html-css-js-img {
     margin-top: 20px;
-    width: 70px;
+    width: 60px;
   }
   .skills-container .icons-container .technologies-container .react-img {
     margin-top: 20px;
-    width: 110px;
+    width: 90px;
   }
   .skills-container .icons-container .technologies-container .node-express-mongo-img {
-    width: 190px;
+    width: 150px;
   }
   .skills-container .icons-container .technologies-container .gimp-figma-img {
-    width: 140px;
+    width: 130px;
   }
   .skills-container .icons-container .technologies-container .ts-img {
-    width: 80px;
+    width: 60px;
   }
   .skills-container .icons-container .technologies-container .html-text {
     top: 0;
     left: 100px;
   }
   .skills-container .icons-container .technologies-container .css-text {
-    top: -60px;
+    top: -70px;
     left: 0;
   }
   .skills-container .icons-container .technologies-container .js-text {
     top: -150px;
-    left: 140px;
+    left: 85px;
   }
   .skills-container .icons-container .technologies-container .react-text {
     left: 40px;
     top: -40px;
   }
   .skills-container .icons-container .technologies-container .node-text {
-    top: -200px;
-    left: 30px;
+    top: -240px;
+    left: 10px;
   }
   .skills-container .icons-container .technologies-container .express-text {
-    top: -180px;
+    top: -200px;
     left: -10px;
   }
   .skills-container .icons-container .technologies-container .mongodb-text {
-    top: -50px;
-    left: 20px;
+    top: -80px;
+    left: 10px;
   }
   .skills-container .icons-container .technologies-container .gimp-text {
-    top: -50px;
+    top: -120px;
     left: -10px;
   }
   .skills-container .icons-container .technologies-container .figma-text {
-    left: 50px;
-    top: -80px;
+    left: 20px;
+    top: -170px;
   }
   .skills-container .icons-container .technologies-container .ts-text {
-    left: 20px;
-    top: -100px;
+    left: 90px;
+    top: -230px;
   }
   .skills-lower-text-container .about-me-skills-text {
-    left: 50px;
-    width: 400px;
-    margin: 20px 20px;
+    left: 10px;
+    width: 300px;
+    margin: 0px 20px;
     font-size: 28px;
     font-family: "Poppins", sans-serif;
     color: rgb(0, 224, 224);
