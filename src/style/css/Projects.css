@@ -82,3 +82,58 @@
   background-size: 105%;
   background-position-x: -25px;
 }
+
+@media (max-width: 992px) {
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .projects-container .projects-header {
+    font-size: 70px;
+  }
+  .projects-container .single-project-container .text {
+    top: 350px;
+    left: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Saira", sans-serif;
+  }
+  .projects-container .single-project-container .stay-alive-text {
+    left: 0px;
+  }
+  .projects-container .single-project-container .upper-text {
+    font-size: 32px;
+  }
+  .projects-container .single-project-container .lower-text {
+    font-size: 22px;
+  }
+  .projects-container .stay-alive-project-container {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+  }
+  .projects-container .crypto-project-container {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+  .projects-container .jrCompose-project-container {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+  }
+  .projects-container .dagmar-project-container {
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+  }
+  .projects-container .dagmar-project-container .dagmar-text {
+    top: 250px;
+    left: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: "Saira", sans-serif;
+  }
+}
