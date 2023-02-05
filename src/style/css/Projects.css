@@ -17,23 +17,63 @@
   text-transform: uppercase;
   margin-bottom: 400px;
 }
-.projects-container .stay-alive-project-container {
-  background-image: url(../../img//stay-alive-img.jpg);
-  width: 800px;
-  height: 550px;
+.projects-container .single-project-container {
   background-size: 100%;
+  background-position: 0px;
   display: flex;
   flex-direction: column;
+  transition: 0.4s ease-out;
+  cursor: pointer;
 }
-.projects-container .stay-alive-project-container .stay-alive-text {
+.projects-container .single-project-container .text {
   position: relative;
   top: 400px;
   left: -150px;
   color: white;
 }
-.projects-container .stay-alive-project-container .stay-alive-upper-text {
+.projects-container .single-project-container .upper-text {
   font-size: 38px;
 }
-.projects-container .stay-alive-project-container .stay-alive-lower-text {
+.projects-container .single-project-container .lower-text {
   font-size: 28px;
+}
+.projects-container .single-project-container:hover {
+  background-size: 110%;
+  background-position-x: -40px;
+}
+.projects-container .project-divider {
+  height: 400px;
+}
+.projects-container .project-divider2 {
+  height: 700px;
+}
+.projects-container .stay-alive-project-container {
+  background-image: url(../../img//stay-alive-img.jpg);
+  width: 700px;
+  height: 550px;
+}
+.projects-container .crypto-project-container {
+  background-image: url(../../img/crypto.jpg);
+  width: 900px;
+  height: 550px;
+}
+.projects-container .jrCompose-project-container {
+  background-image: url(../../img/jrcompose.jpg);
+  width: 850px;
+  height: 600px;
+}
+.projects-container .dagmar-project-container {
+  background-image: url(../../img/dagmar.jpg);
+  width: 950px;
+  height: 480px;
+}
+.projects-container .dagmar-project-container .dagmar-text {
+  position: relative;
+  top: 370px;
+  left: -150px;
+  color: black;
+}
+.projects-container .dagmar-project-container:hover {
+  background-size: 105%;
+  background-position-x: -25px;
 }

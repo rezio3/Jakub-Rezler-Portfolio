@@ -18,27 +18,72 @@
 		margin-bottom: 400px;
 	}
 
-	.stay-alive-project-container {
-		background-image: url(../../img//stay-alive-img.jpg);
-		width: 800px;
-		height: 550px;
+	.single-project-container {
 		background-size: 100%;
+		background-position: 0px;
 		display: flex;
 		flex-direction: column;
+		transition: 0.4s ease-out;
+		cursor: pointer;
 
-		.stay-alive-text {
+		.text {
 			position: relative;
 			top: 400px;
 			left: -150px;
-
 			color: white;
 		}
 
-		.stay-alive-upper-text {
+		.upper-text {
 			font-size: 38px;
 		}
-		.stay-alive-lower-text {
+		.lower-text {
 			font-size: 28px;
 		}
+	}
+
+	.single-project-container:hover {
+		background-size: 110%;
+		background-position-x: -40px;
+	}
+
+	.project-divider {
+		height: 400px;
+	}
+	.project-divider2 {
+		height: 700px;
+	}
+
+	.stay-alive-project-container {
+		background-image: url(../../img//stay-alive-img.jpg);
+		width: 700px;
+		height: 550px;
+	}
+
+	.crypto-project-container {
+		background-image: url(../../img/crypto.jpg);
+		width: 900px;
+		height: 550px;
+	}
+
+	.jrCompose-project-container {
+		background-image: url(../../img/jrcompose.jpg);
+		width: 850px;
+		height: 600px;
+	}
+	.dagmar-project-container {
+		background-image: url(../../img/dagmar.jpg);
+		width: 950px;
+		height: 480px;
+		.dagmar-text {
+			position: relative;
+			top: 370px;
+			left: -150px;
+			color: black;
+		}
+	}
+	.dagmar-project-container:hover {
+		background-size: 105%;
+		background-position-x: -25px;
+		// background-position-y: 0px;
 	}
 }
