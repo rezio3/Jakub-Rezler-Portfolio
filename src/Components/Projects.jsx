@@ -17,7 +17,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
 			if (entry.target.id === "stayAlive" && entry.isIntersecting) {
-				document.body.style.background = "#beaa66";
+				document.body.style.background = "rgb(68, 44, 0)";
 			}
 		});
 		observer.observe(stayAliveRef.current);
@@ -27,7 +27,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
 			if (entry.target.id === "cryptoCalculator" && entry.isIntersecting) {
-				document.body.style.background = "#00dd66";
+				document.body.style.background = "#beaa66";
 			}
 		});
 		observer.observe(cryptoRef.current);
@@ -37,7 +37,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
 			if (entry.target.id === "jrCompose" && entry.isIntersecting) {
-				document.body.style.background = "#ffdd00";
+				document.body.style.background = "rgb(85, 85, 105)";
 			}
 		});
 		observer.observe(jrComposeRef.current);
@@ -47,7 +47,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
 			if (entry.target.id === "dagmar" && entry.isIntersecting) {
-				document.body.style.background = "#0000ff";
+				document.body.style.background = "rgb(101, 176, 247)";
 			}
 		});
 		observer.observe(dagmarRef.current);
@@ -73,8 +73,10 @@ const Projects = () => {
 				className="stay-alive-project-container single-project-container"
 				id="stayAlive"
 			>
-				<span className="upper-text text">Stay Alive Boardgame</span>
-				<span className="lower-text text">
+				<span className="upper-text text stay-alive-text">
+					Stay Alive Boardgame
+				</span>
+				<span className="lower-text text stay-alive-text">
 					Pure JS/React version in progress...
 				</span>
 			</div>
@@ -103,7 +105,10 @@ const Projects = () => {
 				className="dagmar-project-container single-project-container"
 				id="dagmar"
 			>
-				<span className="upper-text dagmar-text">Biuro Tłumaczeń DAG-MAR</span>
+				<span className="upper-text dagmar-text">
+					Biuro Tłumaczeń <br />
+					DAG-MAR
+				</span>
 				<span className="lower-text dagmar-text">React</span>
 			</div>
 			<div className="project-divider2" />
