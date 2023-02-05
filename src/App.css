@@ -2,7 +2,7 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	/* background-image: linear-gradient(to right, #e6c454, #776427); */
+	background: rgb(11, 0, 36);
 	width: 100%;
 	height: 100%;
 	transition: 1s;
