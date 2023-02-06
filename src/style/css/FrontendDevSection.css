@@ -110,16 +110,16 @@
   }
   .fronend-developer-section .front-span-container {
     left: 0px;
-    width: 330px;
+    width: 100%;
   }
   .fronend-developer-section .end-span-container {
     left: 50%;
-    width: 145px;
+    width: 49%;
     margin-right: 0;
   }
   .fronend-developer-section .developer-span-container {
     left: 0;
-    width: 330px;
+    width: 100%;
     margin-right: 0;
   }
   .fronend-developer-section .developer-span-container .developer-span {
@@ -127,7 +127,7 @@
   }
   .fronend-developer-section .with-react-span-container {
     left: 50%;
-    width: 145px;
+    width: 50%;
     margin-right: 0;
   }
   .fronend-developer-section .with-react-span-container .with-react-span {
