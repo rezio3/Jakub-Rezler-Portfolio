@@ -87,7 +87,7 @@
 			position: relative;
 			top: 250px;
 			left: -200px;
-			color: white;
+			color: black;
 			font-family: "Saira", sans-serif;
 		}
 	}
@@ -95,17 +95,11 @@
 	.dagmar-project-container:hover {
 		background-size: 105%;
 		background-position-x: -25px;
-		// background-position-y: 0px;
 	}
 }
 
 @media (max-width: 992px) {
 	.projects-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-
 		.projects-header {
 			font-size: 57px;
 		}

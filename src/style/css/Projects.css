@@ -78,7 +78,7 @@
   position: relative;
   top: 250px;
   left: -200px;
-  color: white;
+  color: black;
   font-family: "Saira", sans-serif;
 }
 .projects-container .dagmar-project-container:hover {
@@ -87,12 +87,6 @@
 }
 
 @media (max-width: 992px) {
-  .projects-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
   .projects-container .projects-header {
     font-size: 57px;
   }
