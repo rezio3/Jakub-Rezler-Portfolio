@@ -32,7 +32,7 @@
   height: 200px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   margin-top: 50px;
 }
 .skills-container .technologies-container .skill {
