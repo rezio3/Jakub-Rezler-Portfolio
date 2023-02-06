@@ -113,7 +113,8 @@
     width: 100%;
   }
   .fronend-developer-section .end-span-container {
-    left: 50%;
+    left: 0;
+    margin-left: 50%;
     width: 49%;
     margin-right: 0;
   }
@@ -126,7 +127,8 @@
     font-size: 60px;
   }
   .fronend-developer-section .with-react-span-container {
-    left: 50%;
+    left: 0;
+    margin-left: 50%;
     width: 50%;
     margin-right: 0;
   }

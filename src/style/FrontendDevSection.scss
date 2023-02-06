@@ -121,7 +121,8 @@
 			width: 100%;
 		}
 		.end-span-container {
-			left: 50%;
+			left: 0;
+			margin-left: 50%;
 			width: 49%;
 			margin-right: 0;
 		}
@@ -135,7 +136,8 @@
 			}
 		}
 		.with-react-span-container {
-			left: 50%;
+			left: 0;
+			margin-left: 50%;
 
 			width: 50%;
 			margin-right: 0;
