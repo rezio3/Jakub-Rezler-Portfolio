@@ -6,7 +6,7 @@ const Navigation = () => {
 		<div className="navbar">
 			<h1 className="portfolio-header-text">Portfolio</h1>
 			<div className="nav-links">
-				<a href="https://github.com/rezio3" target="_blank">
+				<a href="https://github.com/rezio3" target="_blank" rel="noreferrer">
 					<button className="nav-button">Github</button>
 				</a>
 				<a href="mailto:jakub.rezler96@gmail.com">
