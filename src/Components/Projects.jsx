@@ -7,7 +7,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver(
 			(entries) => {
 				const entry = entries[0];
-				console.log("góra" + entry.intersectionRatio);
+				// console.log("góra" + entry.intersectionRatio);
 				if (entry.target.id === "projects" && entry.isIntersecting) {
 					document.body.style.background = "rgb(11, 0, 36)";
 				}
@@ -35,7 +35,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver(
 			(entries) => {
 				const entry = entries[0];
-				console.log("Crypto" + entry.intersectionRatio);
+				// console.log("Crypto" + entry.intersectionRatio);
 				if (entry.target.id === "cryptoCalculator" && entry.isIntersecting) {
 					document.body.style.background = "#beaa66";
 				}
@@ -49,7 +49,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver(
 			(entries) => {
 				const entry = entries[0];
-				console.log("jrCompose" + entry.intersectionRatio);
+				// console.log("jrCompose" + entry.intersectionRatio);
 				if (entry.target.id === "jrCompose" && entry.isIntersecting) {
 					document.body.style.background = "rgb(85, 85, 105)";
 				}
@@ -63,7 +63,7 @@ const Projects = () => {
 		const observer = new IntersectionObserver(
 			(entries) => {
 				const entry = entries[0];
-				console.log("dagmar" + entry.intersectionRatio);
+				// console.log("dagmar" + entry.intersectionRatio);
 				if (entry.target.id === "dagmar" && entry.isIntersecting) {
 					document.body.style.background = "rgb(101, 176, 247)";
 				}
