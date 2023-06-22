@@ -113,7 +113,7 @@ const Projects = () => {
 			</a>
 			<div className="project-divider" />
 			<a
-				href="https://crypto-calculator.prv.pl/"
+				href="https://rezio3.github.io/crypto-calculator/"
 				target="_blank"
 				rel="noreferrer"
 			>
