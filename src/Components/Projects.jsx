@@ -72,6 +72,20 @@ const Projects = () => {
 		);
 		observer.observe(dagmarRef.current);
 	}, []);
+	const hwRef = useRef();
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				const entry = entries[0];
+				// console.log("hw" + entry.intersectionRatio);
+				if (entry.target.id === "hw" && entry.isIntersecting) {
+					document.body.style.background = "rgb(59, 59, 59)";
+				}
+			},
+			{ threshold: 0.9 }
+		);
+		observer.observe(hwRef.current);
+	}, []);
 	const mainColorlRef = useRef();
 	useEffect(() => {
 		const observer = new IntersectionObserver(
@@ -154,6 +168,23 @@ const Projects = () => {
 						DAG-MAR
 					</span>
 					<span className="lower-text dagmar-text">React</span>
+				</div>
+			</a>
+			<div className="project-divider" />
+			<a
+				href="https://rezio3.github.io/hw-music-production/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<div
+					ref={dagmarRef}
+					className="hw-project-container single-project-container"
+					id="hw"
+				>
+					<span className="upper-text hw-text">
+						HW Music Production <br /> in progress..
+					</span>
+					<span className="lower-text hw-text">React</span>
 				</div>
 			</a>
 			<div className="project-divider2" />
