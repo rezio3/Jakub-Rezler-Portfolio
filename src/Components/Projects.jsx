@@ -65,7 +65,7 @@ const Projects = () => {
 				const entry = entries[0];
 				// console.log("dagmar" + entry.intersectionRatio);
 				if (entry.target.id === "dagmar" && entry.isIntersecting) {
-					document.body.style.background = "rgb(101, 176, 247)";
+					document.body.style.background = "rgb(146, 0, 0)";
 				}
 			},
 			{ threshold: 0.9 }
