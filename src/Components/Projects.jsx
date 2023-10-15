@@ -141,7 +141,11 @@ const Projects = () => {
 				</div>
 			</a>
 			<div className="project-divider" />
-			<a href="http://jrcompose.prv.pl/" target="_blank" rel="noreferrer">
+			<a
+				href="https://rezio3.github.io/JR-Compose-Website/"
+				target="_blank"
+				rel="noreferrer"
+			>
 				<div
 					ref={jrComposeRef}
 					className="jrCompose-project-container single-project-container"
