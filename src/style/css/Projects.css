@@ -85,6 +85,23 @@
   background-size: 105%;
   background-position-x: -25px;
 }
+.projects-container .hw-project-container {
+  background-image: url(../../img/HWComposer.png);
+  width: 850px;
+  height: 500px;
+  background-color: rgb(59, 59, 59);
+}
+.projects-container .hw-project-container .hw-text {
+  position: relative;
+  top: 130px;
+  left: -160px;
+  color: white;
+  font-family: "Saira", sans-serif;
+}
+.projects-container .hw-project-container:hover {
+  background-size: 105%;
+  background-position-x: -20px;
+}
 
 @media (max-width: 992px) {
   .projects-container .projects-header {

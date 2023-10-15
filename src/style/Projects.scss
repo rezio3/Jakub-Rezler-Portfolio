@@ -99,8 +99,19 @@
 	.hw-project-container {
 		background-image: url(../../img/HWComposer.png);
 		width: 850px;
-		height: 600px;
+		height: 500px;
 		background-color: rgb(59, 59, 59);
+		.hw-text {
+			position: relative;
+			top: 130px;
+			left: -160px;
+			color: white;
+			font-family: "Saira", sans-serif;
+		}
+	}
+	.hw-project-container:hover {
+		background-size: 105%;
+		background-position-x: -20px;
 	}
 }
 
