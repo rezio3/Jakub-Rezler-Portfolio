@@ -177,12 +177,12 @@ const Projects = () => {
 				rel="noreferrer"
 			>
 				<div
-					ref={dagmarRef}
+					ref={hwRef}
 					className="hw-project-container single-project-container"
 					id="hw"
 				>
 					<span className="upper-text hw-text">
-						HW Music Production <br /> in progress..
+						HW Music Production <br /> in progress...
 					</span>
 					<span className="lower-text hw-text">React</span>
 				</div>
