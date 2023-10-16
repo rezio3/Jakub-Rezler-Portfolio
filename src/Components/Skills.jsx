@@ -38,7 +38,7 @@ const Skills = () => {
 				scrub: 1,
 			},
 			x: "200px",
-			css: { opacity: 0 },
+			opacity: 0,
 		});
 	}, []);
 	return (
