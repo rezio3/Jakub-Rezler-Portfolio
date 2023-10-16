@@ -14,7 +14,7 @@ const MainPage = () => {
 			<FrontendDevSection />
 			<div className="divider1" />
 			<Skills />
-			<div className="divider2" />
+			{/* <div className="divider2" /> */}
 			<Projects />
 			<Contact />
 			<Footer />
