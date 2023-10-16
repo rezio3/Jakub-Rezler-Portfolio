@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jakub-Rezler-Portfolio/static/css/main.020875e6.css",
-    "main.js": "/Jakub-Rezler-Portfolio/static/js/main.cc97455d.js",
+    "main.js": "/Jakub-Rezler-Portfolio/static/js/main.7ab6b463.js",
     "static/media/crypto.jpg": "/Jakub-Rezler-Portfolio/static/media/crypto.098fabe2489852cae510.jpg",
     "static/media/stay-alive-img.jpg": "/Jakub-Rezler-Portfolio/static/media/stay-alive-img.47bf9b1b9278a4b99c48.jpg",
     "static/media/pattern.jpg": "/Jakub-Rezler-Portfolio/static/media/pattern.197b015e2fe27a4aa513.jpg",
@@ -19,10 +19,10 @@
     "static/media/express.png": "/Jakub-Rezler-Portfolio/static/media/express.30c60ea01b673cf6a434.png",
     "index.html": "/Jakub-Rezler-Portfolio/index.html",
     "main.020875e6.css.map": "/Jakub-Rezler-Portfolio/static/css/main.020875e6.css.map",
-    "main.cc97455d.js.map": "/Jakub-Rezler-Portfolio/static/js/main.cc97455d.js.map"
+    "main.7ab6b463.js.map": "/Jakub-Rezler-Portfolio/static/js/main.7ab6b463.js.map"
   },
   "entrypoints": [
     "static/css/main.020875e6.css",
-    "static/js/main.cc97455d.js"
+    "static/js/main.7ab6b463.js"
   ]
 }
