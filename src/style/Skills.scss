@@ -41,15 +41,10 @@
 		align-items: flex-start;
 
 		.skill {
-			// min-width: 300px;
 			position: relative;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-
-			.img {
-				// top: 160px;
-			}
 		}
 		.html-css-js-img {
 			margin-top: 20px;
@@ -155,11 +150,6 @@
 				width: 47%;
 				margin-top: 50px;
 
-				.skill {
-					.img {
-						// top: 160px;
-					}
-				}
 				.html-css-js-img {
 					margin-top: 20px;
 					width: 60px;
