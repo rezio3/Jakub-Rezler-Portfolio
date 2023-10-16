@@ -42,7 +42,7 @@ const SkillsMobile = () => {
 		ScrollTrigger.create({
 			trigger: ".about-me-skills-text",
 			pin: true,
-			start: "top center",
+			start: "center center",
 			end: "bottom center",
 			// markers: true,
 		});
