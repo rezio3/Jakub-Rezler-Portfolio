@@ -43,7 +43,8 @@ const SkillsDesktop = () => {
 			trigger: ".about-me-skills-text",
 			pin: true,
 			start: "top center",
-			markers: true,
+			end: "bottom center",
+			// markers: true,
 		});
 	}, []);
 	return (
