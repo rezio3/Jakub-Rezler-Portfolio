@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, useLayoutEffect } from "react";
 import Media from "react-media";
 import "../style/css/Skills.css";
 import "../style/css/SkillsAnim.css";
@@ -12,6 +12,8 @@ import mongoImg from "../img/mongo.png";
 import gimpImg from "../img/gimp.png";
 import figmaImg from "../img/figma.png";
 import tsImg from "../img/ts.png";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/src/ScrollTrigger";
 
 const Skills = () => {
 	const [anim, setAnim] = useState(false);
@@ -22,6 +24,22 @@ const Skills = () => {
 			setAnim(entry.isIntersecting);
 		});
 		observer.observe(myRef.current);
+	}, []);
+	gsap.registerPlugin(ScrollTrigger);
+	useLayoutEffect(() => {
+		// const tl = gsap.timeline();
+		gsap.from(".skill", {
+			scrollTrigger: {
+				trigger: ".skills-container",
+				// toggleActions: "restart pause reverse pause",
+				// markers: true,
+				start: "top center",
+				end: "200px 300px",
+				scrub: 1,
+			},
+			x: "200px",
+			css: { opacity: 0 },
+		});
 	}, []);
 	return (
 		<Media query="(min-width: 992px)">
