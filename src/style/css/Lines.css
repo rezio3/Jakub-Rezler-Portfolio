@@ -29,7 +29,7 @@
   }
   .lines .vertical-line {
     display: inline-block;
-    height: 15950px;
+    height: 15700px;
     max-width: 1px;
     border-left: 1px solid rgb(55, 184, 166);
     white-space: nowrap;
