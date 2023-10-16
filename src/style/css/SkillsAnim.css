@@ -47,12 +47,3 @@
   position: relative;
   animation: images-anim 0.5s 0.7s ease-out forwards;
 }
-
-@keyframes images-anim {
-  from {
-    top: 160px;
-  }
-  to {
-    top: 0px;
-  }
-}

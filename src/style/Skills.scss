@@ -35,10 +35,10 @@
 	.technologies-container {
 		width: 100%;
 		height: 200px;
+		margin-top: 50px;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
-		margin-top: 50px;
 
 		.skill {
 			// min-width: 300px;
@@ -46,10 +46,9 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			overflow: hidden;
 
 			.img {
-				top: 160px;
+				// top: 160px;
 			}
 		}
 		.html-css-js-img {
