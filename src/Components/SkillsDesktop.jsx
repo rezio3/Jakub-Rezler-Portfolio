@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import "../style/css/Skills.css";
 import "../style/css/SkillsAnim.css";
 import htmlImg from "../img/html.png";
@@ -15,8 +15,6 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 
 const SkillsDesktop = () => {
-	const myRef = useRef();
-	const skill = useRef();
 	gsap.registerPlugin(ScrollTrigger);
 	useEffect(() => {
 		gsap.from(".skills-container", {
