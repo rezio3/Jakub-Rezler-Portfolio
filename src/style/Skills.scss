@@ -10,25 +10,10 @@
 		overflow: hidden;
 		.skills-text {
 			position: relative;
-			left: -600px;
+			left: 3px;
 			font-size: 40px;
 			color: $cyan;
-			opacity: 0;
-		}
-		.skills-text-anim {
-			animation: skills-text-anim 1s ease-out forwards;
-		}
-
-		@keyframes skills-text-anim {
-			from {
-				opacity: 0;
-				left: -300px;
-			}
-
-			to {
-				opacity: 1;
-				left: 3px;
-			}
+			opacity: 1;
 		}
 	}
 
