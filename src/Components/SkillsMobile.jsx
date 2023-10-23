@@ -15,16 +15,8 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 
 const SkillsMobile = () => {
-	// const [anim, setAnim] = useState(false);
 	const myRef = useRef();
 	const skill = useRef();
-	useEffect(() => {
-		const observer = new IntersectionObserver((entries) => {
-			const entry = entries[0];
-			// setAnim(entry.isIntersecting);
-		});
-		observer.observe(myRef.current);
-	}, []);
 	gsap.registerPlugin(ScrollTrigger);
 	useLayoutEffect(() => {
 		gsap.from(skill, {
