@@ -15,29 +15,28 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 
 const SkillsDesktop = () => {
-	// const [anim, setAnim] = useState(false);
 	const myRef = useRef();
 	const skill = useRef();
 	gsap.registerPlugin(ScrollTrigger);
-	// useEffect(() => {
-	// 	// const tl = gsap.timeline();
-	// 	gsap.from(skill, {
-	// 		scrollTrigger: {
-	// 			trigger: myRef,
-	// 			start: "top center",
-	// 			end: "200px 300px",
-	// 			scrub: 1,
-	// 		},
-	// 		x: "200px",
-	// 		opacity: 0,
-	// 	});
-	// 	ScrollTrigger.create({
-	// 		trigger: ".about-me-skills-text",
-	// 		pin: true,
-	// 		start: "top center",
-	// 		end: "bottom center",
-	// 	});
-	// }, []);
+	useEffect(() => {
+		// const tl = gsap.timeline();
+		gsap.from(".skills-container", {
+			scrollTrigger: {
+				trigger: ".skill",
+				start: "top center",
+				end: "200px 300px",
+				scrub: 1,
+			},
+			x: "200px",
+			opacity: 0,
+		});
+		ScrollTrigger.create({
+			trigger: ".about-me-skills-text",
+			pin: true,
+			start: "top center",
+			end: "bottom center",
+		});
+	}, []);
 	return (
 		<>
 			<div ref={myRef} className="skills-container">
