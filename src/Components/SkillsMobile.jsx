@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import "../style/css/Skills.css";
 import "../style/css/SkillsAnim.css";
 import htmlImg from "../img/html.png";
@@ -18,7 +18,7 @@ const SkillsMobile = () => {
 	const myRef = useRef();
 	const skill = useRef();
 	gsap.registerPlugin(ScrollTrigger);
-	useLayoutEffect(() => {
+	useEffect(() => {
 		gsap.from(skill, {
 			scrollTrigger: {
 				trigger: myRef,
