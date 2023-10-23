@@ -19,7 +19,6 @@ const SkillsDesktop = () => {
 	const skill = useRef();
 	gsap.registerPlugin(ScrollTrigger);
 	useEffect(() => {
-		// const tl = gsap.timeline();
 		gsap.from(".skills-container", {
 			scrollTrigger: {
 				trigger: ".technologies-container",
@@ -39,9 +38,9 @@ const SkillsDesktop = () => {
 	}, []);
 	return (
 		<>
-			<div ref={myRef} className="skills-container">
+			<div className="skills-container">
 				<div className="skills-text-container">
-					<span className="skills-text skills-text-anim" ref={skill}>
+					<span className="skills-text skills-text-anim">
 						Co potrafię i w czym pracuję?
 					</span>
 				</div>
