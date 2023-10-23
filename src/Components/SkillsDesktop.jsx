@@ -23,6 +23,7 @@ const SkillsDesktop = () => {
 				start: "top bottom",
 				end: "200px 300px",
 				scrub: 1,
+				markers: true,
 			},
 			x: "200px",
 			opacity: 0,
