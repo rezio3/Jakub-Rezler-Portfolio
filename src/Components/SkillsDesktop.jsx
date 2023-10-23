@@ -22,8 +22,8 @@ const SkillsDesktop = () => {
 		// const tl = gsap.timeline();
 		gsap.from(".skills-container", {
 			scrollTrigger: {
-				trigger: ".skill",
-				start: "top center",
+				trigger: ".technologies-container",
+				start: "top bottom",
 				end: "200px 300px",
 				scrub: 1,
 			},
