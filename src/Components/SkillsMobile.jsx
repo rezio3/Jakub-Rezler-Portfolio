@@ -15,23 +15,21 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 
 const SkillsMobile = () => {
-	const [anim, setAnim] = useState(false);
+	// const [anim, setAnim] = useState(false);
 	const myRef = useRef();
+	const skill = useRef();
 	useEffect(() => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
-			setAnim(entry.isIntersecting);
+			// setAnim(entry.isIntersecting);
 		});
 		observer.observe(myRef.current);
 	}, []);
 	gsap.registerPlugin(ScrollTrigger);
 	useLayoutEffect(() => {
-		// const tl = gsap.timeline();
-		gsap.from(".skill", {
+		gsap.from(skill, {
 			scrollTrigger: {
-				trigger: ".skills-container",
-				// toggleActions: "restart pause reverse pause",
-				// markers: true,
+				trigger: myRef,
 				start: "top center",
 				end: "200px 300px",
 				scrub: 1,
@@ -44,107 +42,62 @@ const SkillsMobile = () => {
 			pin: true,
 			start: "center center",
 			end: "bottom center",
-			// markers: true,
 		});
 	}, []);
 	return (
 		<>
-			<div ref={myRef} className="skills-container">
+			<div className="skills-container" ref={myRef}>
 				<div className="skills-text-container">
-					<span
-						className={anim ? "skills-text skills-text-anim" : "skills-text"}
-					>
+					<span className="skills-text" ref={skill}>
 						Co potrafię i w czym pracuję?
 					</span>
 				</div>
 				<div className="icons-container">
 					<div className="technologies-container">
 						<div className="html-text skill">
-							<img
-								src={htmlImg}
-								className={
-									anim ? "html-css-js-img img html-img" : "html-css-js-img img"
-								}
-							/>
+							<img src={htmlImg} ref={skill} className="html-css-js-img img" />
 						</div>
 						<div className="css-text skill">
-							<img
-								src={cssImg}
-								className={
-									anim ? "html-css-js-img img css-img" : "html-css-js-img img"
-								}
-							/>
+							<img src={cssImg} ref={skill} className="html-css-js-img img" />
 						</div>
 						<div className="js-text skill">
-							<img
-								src={jsImg}
-								className={
-									anim ? "html-css-js-img img js-img" : "html-css-js-img img"
-								}
-							/>
+							<img src={jsImg} ref={skill} className="html-css-js-img img" />
 						</div>
 						<div className="express-text skill">
 							<img
 								src={expressImg}
-								className={
-									anim
-										? "node-express-mongo-img img express-img"
-										: "node-express-mongo-img img"
-								}
+								ref={skill}
+								className="node-express-mongo-img img"
 							/>
 						</div>
 						<div className="node-text skill">
 							<img
 								src={nodeImg}
-								className={
-									anim
-										? "node-express-mongo-img img node-img"
-										: "node-express-mongo-img img"
-								}
+								ref={skill}
+								className="node-express-mongo-img img"
 							/>
 						</div>
 					</div>
 					<div className="technologies-container">
 						<div className="react-text skill">
-							<img
-								src={reactImg}
-								className={
-									anim ? "img react-img react-img-anim" : "img react-img"
-								}
-							/>
+							<img src={reactImg} ref={skill} className="img react-img" />
 						</div>
 
 						<div className="mongodb-text skill">
 							<img
 								src={mongoImg}
-								className={
-									anim
-										? "node-express-mongo-img img mongo-img"
-										: "node-express-mongo-img img"
-								}
+								ref={skill}
+								className="node-express-mongo-img img"
 							/>
 						</div>
 						<div className="gimp-text skill">
-							<img
-								src={gimpImg}
-								className={
-									anim ? "gimp-figma-img img gimp-img" : "gimp-figma-img img"
-								}
-							/>
+							<img src={gimpImg} ref={skill} className="gimp-figma-img img" />
 						</div>
 						<div className="figma-text skill">
-							<img
-								src={figmaImg}
-								className={
-									anim ? "gimp-figma-img img figma-img" : "gimp-figma-img img"
-								}
-							/>
+							<img src={figmaImg} ref={skill} className="gimp-figma-img img" />
 						</div>
 						<div className="ts-text skill">
-							<img
-								src={tsImg}
-								className={anim ? "img ts-img ts-img-anim" : "img ts-img"}
-							/>
+							<img src={tsImg} ref={skill} className="img ts-img" />
 						</div>
 					</div>
 				</div>
