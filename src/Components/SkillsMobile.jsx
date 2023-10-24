@@ -19,7 +19,7 @@ const SkillsMobile = () => {
 	useEffect(() => {
 		gsap.from(".skills-container", {
 			scrollTrigger: {
-				trigger: ".",
+				trigger: ".technologies-container",
 				start: "top center",
 				end: "200px 300px",
 				scrub: 1,
