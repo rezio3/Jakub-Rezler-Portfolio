@@ -138,7 +138,7 @@ const Projects = () => {
 			</a>
 			<div className="project-divider" />
 			<a
-				href="rezio3.github.io/best-setup-online-shop/"
+				href="https://rezio3.github.io/best-setup-online-shop/"
 				target="_blank"
 				rel="noreferrer"
 			>
