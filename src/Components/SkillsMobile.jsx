@@ -27,12 +27,6 @@ const SkillsMobile = () => {
 			y: "-200px",
 			opacity: 0,
 		});
-		ScrollTrigger.create({
-			trigger: ".about-me-skills-text",
-			pin: true,
-			start: "center center",
-			end: "bottom center",
-		});
 	}, []);
 	return (
 		<>

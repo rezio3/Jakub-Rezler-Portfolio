@@ -27,12 +27,6 @@ const SkillsDesktop = () => {
 			x: "200px",
 			opacity: 0,
 		});
-		ScrollTrigger.create({
-			trigger: ".about-me-skills-text",
-			pin: true,
-			start: "top center",
-			end: "bottom center",
-		});
 	}, []);
 	return (
 		<>

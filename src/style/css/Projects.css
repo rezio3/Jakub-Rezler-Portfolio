@@ -85,6 +85,22 @@
   background-size: 105%;
   background-position-x: -25px;
 }
+.projects-container .bestsetup-project-container {
+  background-image: url(../../img/bestsetup.jpg);
+  width: 950px;
+  height: 495px;
+}
+.projects-container .bestsetup-project-container .bestsetup-text {
+  position: relative;
+  top: 250px;
+  left: -320px;
+  color: rgb(255, 255, 255);
+  font-family: "Saira", sans-serif;
+}
+.projects-container .bestsetup-project-container:hover {
+  background-size: 105%;
+  background-position-x: -25px;
+}
 .projects-container .hw-project-container {
   background-image: url(../../img/HWComposer.png);
   width: 850px;
@@ -149,6 +165,18 @@
     background-repeat: no-repeat;
   }
   .projects-container .dagmar-project-container .dagmar-text {
+    top: 250px;
+    left: 0px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-family: "Saira", sans-serif;
+  }
+  .projects-container .bestsetup-project-container {
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+  }
+  .projects-container .bestsetup-project-container .bestsetup-text {
     top: 250px;
     left: 0px;
     margin-left: 8px;

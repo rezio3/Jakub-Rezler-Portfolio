@@ -96,6 +96,24 @@
 		background-size: 105%;
 		background-position-x: -25px;
 	}
+	.bestsetup-project-container {
+		background-image: url(../../img/bestsetup.jpg);
+		// background-repeat: no-repeat;
+		width: 950px;
+		height: 495px;
+		.bestsetup-text {
+			position: relative;
+			top: 250px;
+			left: -320px;
+			color: rgb(255, 255, 255);
+			font-family: "Saira", sans-serif;
+		}
+	}
+
+	.bestsetup-project-container:hover {
+		background-size: 105%;
+		background-position-x: -25px;
+	}
 	.hw-project-container {
 		background-image: url(../../img/HWComposer.png);
 		width: 850px;
@@ -169,6 +187,18 @@
 			height: 240px;
 			background-repeat: no-repeat;
 			.dagmar-text {
+				top: 250px;
+				left: 0px;
+				margin-left: 8px;
+				font-weight: bold;
+				font-family: "Saira", sans-serif;
+			}
+		}
+		.bestsetup-project-container {
+			width: 100%;
+			height: 240px;
+			background-repeat: no-repeat;
+			.bestsetup-text {
 				top: 250px;
 				left: 0px;
 				margin-left: 8px;
